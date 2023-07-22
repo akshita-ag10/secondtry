@@ -1,0 +1,653 @@
+Question 1: class HelloWorld {
+    public static void main(String[] arr){
+        int a=10;
+         System.out.println(a++);
+    }
+   
+}
+
+a) 11
+b) 10+
+c) error
+d) 10
+
+
+Question 2: class HelloWorld {
+    public static void main(String[] arr){
+        int a=10;
+        a++;
+         System.out.println(++a);
+    }
+   
+}
+
+a) 11
+b) 12
+c) error
+d) 10
+
+
+Question 3: What will be the Output of the below code:
+
+public class A {
+    public static void main(String[] args)
+    {
+        System.out.println('j' + 'a' + 'v' + 'a');
+    }
+}
+Choices:
+
+a) java
+b) error
+c) 418
+d) j a v a
+
+Answer: c) Something else (Other than simple concatenation)
+Reason: “java” would be printed if String literals (in double quotes) are used, but in the question since character literals has been used, these won’t be concatenated. Therefore After execution of the program, an addition of each equivalent ASCII(Unicode) value of the character will be obtained.
+Hence the output is 106 + 97 + 118 + 97 = 418
+
+
+Question 4:
+class HelloWorld {
+    public static void main(String[] arr){
+      String car, bus = "petrol";
+   car = car + bus;
+   System.out.println(car);
+}
+}
+    
+1. petrol
+2. petrolpetrol
+3. error
+4. true   
+
+
+
+Question 5:
+public class Test {
+	public static void main(String[] args) {
+		for(int i=0; 0; i++) {
+			System.out.println("Hello World!");
+		}
+	}
+}
+
+1. no output
+2. error
+3. hello world
+4. infinit loop   
+
+
+
+Question 6:
+public static void main(String[] args) {
+    for(int i = 0; i < 1; i++) {
+        System.out.println(i+' ');
+    }
+}
+
+1. no output
+2. error
+3. 100
+4. 32
+
+
+Question 7:
+public class Code
+{
+    public static void main(String args[])
+    {
+        int y = 08;
+        y = y + 2;
+        System.out.println(y);
+    }
+}
+
+1. 10
+2. 082
+3. error
+4. 28
+
+https://iq.opengenus.org/java-predict-output-questions/
+
+
+
+
+Question 8: Which component is used to compile, debug and execute the java programs?
+a) JRE
+b) JIT
+c) JDK
+d) JVM
+
+Answer: c
+Explanation: JDK is a core component of Java Environment and provides all the tools, executables and binaries required to compile, debug and execute a Java Program.
+
+
+
+Question 9: 
+Which one of the following is not a Java feature?
+a) Object-oriented
+b) Use of pointers
+c) Portable
+d) Dynamic and Extensible
+
+Answer: b
+Explanation: Pointers is not a Java feature. Java provides an efficient abstraction layer for developing without using a pointer in Java. Features of Java Programming are Portable, Architectural Neutral, Object-Oriented, Robust, Secure, Dynamic and Extensible, etc.
+
+
+Question 9:What will be the output of the following Java code?
+
+class increment {
+    public static void main(String args[]) 
+    {        
+         int g = 3;
+         System.out.print(++g * 8);
+    } 
+}
+a) 32
+b) 33
+c) 24
+d) 25
+
+Answer: a
+Explanation: Operator ++ has more preference than *, thus g becomes 4 and when multiplied by 8 gives 32.
+output:
+
+
+
+Question 11: Which of the following is not an OOPS concept in Java?
+a) Polymorphism
+b) Inheritance
+c) Compilation
+d) Encapsulation
+
+Answer: c
+Explanation: There are 4 OOPS concepts in Java. Inheritance, Encapsulation, Polymorphism and Abstraction.
+
+
+
+Question 12: What will be the output of the following Java code snippet?
+
+class abc
+{
+    public static void main(String args[])
+    {
+        if(args.length>0)
+        System.out.println(args.length);
+    }
+}
+a) The snippet compiles and runs but does not print anything
+b) The snippet compiles, runs and prints 0
+c) The snippet compiles, runs and prints 1
+d) The snippet does not compile
+View Answer
+
+Answer: a
+Explanation: As no argument is passed to the code, the length of args is 0. So the code will not print.
+
+
+Question 13: Which of these are selection statements in Java?
+a) break
+b) continue
+c) for()
+d) if()
+View Answer
+
+Answer: d
+Explanation: Continue and break are jump statements, and for is a looping statement.
+
+
+
+Question 14:
+What will be the output of the following Java code?
+
+    class output 
+    {
+        public static void main(String args[])
+        { 
+           String c = "Hello i love java";
+           boolean var;
+           var = c.startsWith("hello");
+           System.out.println(var);
+        }
+    }
+a) 0
+b) true
+c) 1
+d) false
+
+Answer: d
+Explanation: startsWith() method is case sensitive “hello” and “Hello” are treated differently, hence false is stored in var.
+Output:
+false
+
+
+
+Question 15: What will be the output of the following Java code?
+
+    class Output 
+    {
+         public static void main(String args[]) 
+         {
+             double x = 3.14;  
+             int y = (int) Math.ceil(x);
+             System.out.print(y);
+         }
+    }
+a) 3
+b) 0
+c) 4
+d) 3.0
+View Answer
+
+Answer: c
+Explanation: ciel(double X) returns the smallest whole number greater than or equal to variable x.
+
+
+Question 16: Which one of the following is not an access modifier?
+a) Protected
+b) Void
+c) Public
+d) Private
+View Answer
+
+Answer: b
+Explanation: Public, private, protected and default are the access modifiers.
+
+
+Question 17:  What is the numerical range of a char data type in Java?
+a) 0 to 256
+b) -128 to 127
+c) 0 to 65535
+d) 0 to 32767
+View Answer
+
+Answer: c
+Explanation: Char occupies 16-bit in memory, so it supports 216 i:e from 0 to 65535.
+
+
+
+Question 18: Which of these is an incorrect array declaration?
+a) int arr[] = new int[5]
+b) int [] arr = new int[5]
+c) int arr[] = new int[5]
+d) int arr[] = int [5] new
+View Answer
+
+Answer: d
+Explanation: Operator new must be succeeded by array type and array size.
+
+
+
+Question 19: Which of the following is not OOPS concept in Java?
+a) Inheritance
+b) Encapsulation
+c) Polymorphism
+d) Compilation
+View Answer
+
+Answer: d
+Explanation: There are 4 OOPS concepts in Java. Inheritance, Encapsulation, Polymorphism and Abstraction.
+
+
+
+Question 20: Output of below code 
+String str1 = "Hello";
+String str2 = new String("Hello");
+System.out.println(str1 == str2);
+
+a) false
+b) true
+c) error
+d) hello
+
+Answer A
+
+
+Question 21:
+output of below code 
+String str = "Hello";
+str.replace("l", "L");
+System.out.println(str);
+
+a) heLLo
+b) heLlo
+c) error
+d) LL
+
+
+
+Question 22: output of below code 
+
+int x = 10;
+if (x > 5) {
+    int y = 20;
+}
+System.out.println(y);
+
+
+a) undefined 
+b) null
+c) 20
+d) error
+
+
+
+Question 23: output  of below code 
+
+String str = "OpenAI";
+String result = str.substring(2, 5);
+System.out.println(result);
+
+a) enA 
+b) pen
+c) nAI
+d) error
+
+Question 24:
+output  of below code 
+
+int x = 5;
+int y = 10;
+System.out.println("x + y = " + x + y);
+
+a) 510 
+b) x + y = 510
+c) 60
+d) 16
+
+Question 25:
+output  of below code 
+
+int x = 10;
+System.out.println(x > 5 ? "Greater than 5" : "Less than or equal to 5");
+
+a) Greater than 5 
+b) Less than or equal to 5
+c) 10
+d) error
+
+
+Question 26:
+output  of below code 
+
+int x = 10;
+System.out.println(x > 5 ? "Greater than 5" : "Less than or equal to 5");
+
+a) Greater than 5 
+b) Less than or equal to 5
+c) 10
+d) error
+
+
+Question 27:
+output  of below code 
+for (int i = 0; i < 5; i++) {
+    if (i == 2) {
+        continue;
+    }
+    System.out.print(i + " ");
+}
+
+a) 0 1 2 3 4 
+b) 0 1 3 4 
+c) 1 2
+d) 1 2 3
+
+
+Question 28:
+
+String s = "Java";
+s.concat(" Programming");
+System.out.println(s);
+
+a) java 
+b) Programming
+c) Programming java
+d) java Programming
+
+Answer a
+
+
+Question 29: 
+
+int x = 10;
+System.out.println(x > 5 ? "Hello" : "Hi");
+
+a) Hello 
+b) Hi
+c) error
+d) x > 5 ? "Hello" : "Hi"
+
+
+
+Question 30:
+
+int[] arr = {1, 2, 3};
+System.out.println(arr[3]);
+
+a) 3 
+b) 1,2,3
+c) null
+d) error
+
+
+Question 31:
+int x = 5;
+int y = 2;
+double result = x / y;
+System.out.println(result);
+
+a) 2.0 
+b) 2.5
+c) 2
+d) 2.50
+
+Question 32:
+String str = "Java";
+System.out.println(str.charAt(4));
+
+a) v
+b) a
+c) null
+d) error
+
+
+Question 33: 
+int x = 10;
+x =+ 5;
+System.out.println(x);
+
+a) 5
+b) 10
+c) 15
+d) error
+
+Answer 5
+
+Question 34:
+int x = 10;
+x *= 3 + 2;
+System.out.println(x);
+
+
+a) 50
+b) 32
+c) 15
+d) 5
+
+
+Question 35:
+
+int x = 10;
+if (x++ == 10) {
+    System.out.println("Hello");
+} else {
+    System.out.println("Hi");
+}
+
+
+a) Hello
+b) Hi
+c) error
+
+
+
+Question 36: 
+double x = 6.1;
+int y = 2;
+System.out.println(x % y);
+
+
+a) 0
+b) 1.1
+c) 0.09
+d  1
+
+
+Question 37:
+int x = 10;
+int y = 5;
+System.out.println(x =! y);
+
+
+a) false
+b) true
+c) error
+d  0
+
+
+Question 38:
+String str = "Ja va";
+System.out.println(str.indexOf('v'));
+
+a) 2
+b) 3
+c) 4
+d  1
+
+
+
+Question 39:
+int x = 5;
+int y = 2;
+System.out.println(x & y);
+
+a) true
+b) false
+c) 0
+d  1
+
+
+
+Question 40:
+int x = 5;
+int y = 2;
+System.out.println(x | y);
+
+
+a) 5
+b) true
+c) false
+d  7
+
+
+Question 41:
+int x = 5;
+int y = 2;
+System.out.println(x ^ y);
+
+a) 5
+b) 2
+c) 0
+d  7
+
+Question 42: 
+System.out.println(-1 - -1);
+
+a) -2
+b) -1
+c) 0
+d  1
+
+
+Question 43: 
+System.out.println("" == " ");
+
+a) true
+b) false
+c) error
+
+Question 44: 
+String str = "Hello";
+System.out.println(str.endsWith("Hello"));
+
+a) true
+b) false
+c) error
+
+
+Question 45: 
+ for (int index = 0; 1; index++) {
+            System.out.println("Welcome");
+            break;
+        }
+
+A. Welcome
+B. Welcome Welcome
+C. Type mismatch error
+D. Run infinite-times
+
+
+Question 46:
+ for (int index = 0; index<1; index++) {
+            System.out.println("Welcome");
+            break;
+        }
+
+A. Welcome
+B. Welcome Welcome
+C. Type mismatch error
+D. Run infinite-times
+
+
+Question 47:  
+for (int index = 0; true; index++) {
+            System.out.println("Welcome");
+            break;
+        }
+A. Welcome
+B. Welcome Welcome
+C. Type mismatch error
+D. Run infinite-times
+
+
+Question 48:  
+ int odd = 1;
+        if (odd) {
+            System.out.println("odd");
+        } else {
+            System.out.println("even");
+        }
+
+A. odd
+B. even
+C. Run-time exception
+D. Type mismatch error
+
+
+
+Question 49:
+ System.out.println(false == !false);
+
+a) true
+b) false
+c) error
+
+
+Question 50:
+ System.out.println(-(-(1+1+1)));
+a) 1
+b) 11
+c) 3
+d)-3
